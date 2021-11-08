@@ -1,0 +1,29 @@
+.btn {
+  background-color: rgb(150, 150, 150);
+  color: rgb(32, 32, 32);
+  font-size: 19px;
+  border-radius: 12px;
+  height: 60px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  &:hover {
+    background-color: rgb(80, 79, 79);
+    color: white;
+  }
+}
+
+.input {
+  width: 50%;
+  height: 55px;
+  font-size: 19px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
